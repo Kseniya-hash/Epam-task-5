@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.gemstask.org/gemSchema"
+		xsi:schemaLocation="http://www.gemstask.org/gemSchema gemSchema.xsd">
+	
+	<gem id="ID-1" originDate="2000-09-23" preciousness="precious">
+		<name>Брилиант</name>
+		<visualParameters>
+			<color>голубой</color>
+			<transparency>0</transparency>
+		 	<edgeNumber>10</edgeNumber>
+		 	<value>1</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-2" preciousness="precious">
+		<name>Брилиант</name>
+		<visualParameters>
+			<color>голубой</color>
+			<transparency>20</transparency>
+		 	<edgeNumber>15</edgeNumber>
+		 	<value>0</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-3" origin="Колумбия" originDate="201509-23" preciousness="precious">
+		<name>Изумруд</name>
+		<visualParameters>
+			<color>зеленый</color>
+			<transparency>80</transparency>
+		 	<edgeNumber>5</edgeNumber>
+		 	<value>10</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-4" originDate="2011-03-11" preciousness="precious">
+		<name>Рубин</name>
+		<visualParameters>
+			<color>красный</color>
+			<transparency>0</transparency>
+		 	<edgeNumber>16</edgeNumber>
+		 	<value>3</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-5" origin="США" originDate="2000-09-23" preciousness="precious">
+		<name>Сапфир</name>
+		<visualParameters>
+			<color>синий</color>
+			<transparency>50</transparency>
+		 	<edgeNumber>12</edgeNumber>
+		 	<value>7.5</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-6">
+		<name>Аметист</name>
+		<visualParameters>
+			<color>фиолетовый</color>
+			<transparency>90</transparency>
+		 	<edgeNumber>5</edgeNumber>
+		 	<value>4.5</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-7" preciousness="semiprecious">
+		<name>Аквамарин</name>
+		<visualParameters>
+			<color>голубой</color>
+			<transparency>0</transparency>
+		 	<edgeNumber>0</edgeNumber>
+		 	<value>6</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-8" origin="Индия" preciousness="precious">
+		<name>Сапфир</name>
+		<visualParameters>
+			<color>синий</color>
+			<transparency>30</transparency>
+		 	<edgeNumber>8</edgeNumber>
+		 	<value>10</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-9" originDate="2010-10-16" preciousness="semipreciou">
+		<name>Агат</name>
+		<visualParameters>
+			<color>розовый</color>
+			<transparency>100</transparency>
+		 	<edgeNumber>15</edgeNumber>
+		 	<value>4</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-10" preciousness="precious">
+		<name>Рубин</name>
+		<visualParameters>
+			<color>красный</color>
+			<transparency>10</transparency>
+		 	<edgeNumber>1</edgeNumber>
+		 	<value>3</value>
+		</visualParameters>
+	</gem>
+
+	<gem id="ID-11">
+		<name>Топаз</name>
+		<visualParameters>
+			<color>голубой</color>
+			<transparency>101</transparency>
+		 	<edgeNumber>10</edgeNumber>
+		 	<value>6</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-13" preciousness="precious">
+		<name>Брилиант</name>
+		<visualParameters>
+			<color>желтый</color>
+			<transparency>10</transparency>
+		 	<edgeNumber>15</edgeNumber>
+		 	<value>10</value>
+		</visualParameters>
+	</gem>
+</gems>

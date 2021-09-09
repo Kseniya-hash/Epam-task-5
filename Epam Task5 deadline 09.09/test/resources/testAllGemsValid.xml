@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.gemstask.org/gemSchema"
+		xsi:schemaLocation="http://www.gemstask.org/gemSchema gemSchema.xsd">
+		
+	<gem id="ID-1" preciousness="precious">
+		<name>Рубин</name>
+		<visualParameters>
+			<color>красный</color>
+			<transparency>0</transparency>
+		 	<edgeNumber>10</edgeNumber>
+		 	<value>3</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-2" preciousness="precious">
+		<name>Брилиант</name>
+		<visualParameters>
+			<color>голубой</color>
+			<transparency>20</transparency>
+		 	<edgeNumber>15</edgeNumber>
+		 	<value>1.5</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-3" origin="Колумбия" originDate="2015-09-23" preciousness="precious">
+		<name>Изумруд</name>
+		<visualParameters>
+			<color>зеленый</color>
+			<transparency>80</transparency>
+		 	<edgeNumber>5</edgeNumber>
+		 	<value>10</value>
+		</visualParameters>
+	</gem>
+	
+	<gem id="ID-6">
+		<name>Аметист</name>
+		<visualParameters>
+			<color>фиолетовый</color>
+			<transparency>90</transparency>
+		 	<edgeNumber>5</edgeNumber>
+		 	<value>4.5</value>
+		</visualParameters>
+	</gem>
+</gems>

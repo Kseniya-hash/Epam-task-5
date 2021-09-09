@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.gemstask.org/gemSchema" 
+	xmlns:tns="http://www.gemstask.org/gemSchema" 
+	elementFormDefault="qualified">
+	<element name="gems">
+		<complexType>
+			<sequence>
+				<element name ="gem" type="tns:gem" minOccurs="1" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<complexType name="gem">
+		<sequence>
+			<element name="name" type="string"/>
+			<element name ="visualParameters" type="tns:visualParameters"/>
+		</sequence>
+		<attribute name="id" type="ID" use="required"/>
+		<attribute name ="preciousness" type="tns:preciousness" default="semiprecious"/>
+		<attribute name="origin" type="string" use="optional"/>
+		<attribute name="originDate" type="date" use="optional"/>
+	</complexType>
+	
+	<simpleType name="preciousness">
+		<restriction base="string">
+			<enumeration value="precious"></enumeration>
+			<enumeration value="semiprecious"></enumeration>
+		</restriction>
+	</simpleType>
+	
+	<complexType name="visualParameters">
+		<sequence>
+			<element name="color" type="string"/>
+			<element name="transparency" type="tns:transparency"/>
+			<element name="edgeNumber" type="tns:edgeNumber"/>
+			<element name="value" type="tns:positiveDouble"/>
+		</sequence>
+	</complexType>
+	
+	<simpleType name="transparency">
+		<restriction base="double">
+			<minInclusive value="0"/>
+			<maxInclusive value="100"/>
+		</restriction>
+	</simpleType>
+	
+	<simpleType name="edgeNumber">
+		<restriction base="int">
+			<minInclusive value="4"/>
+			<maxInclusive value="15"/>
+		</restriction>
+	</simpleType>
+	
+	<simpleType name="positiveDouble">
+    	<restriction base="double">
+      		<minExclusive value="0"/>
+    	</restriction>
+	</simpleType>
+</schema>

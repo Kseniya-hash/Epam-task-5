@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.gemstask.org/gemSchema"
+		xsi:schemaLocation="http://www.gemstask.org/gemSchema gemSchema.xsd">
+		
+	<gem id="ID-1" preciousness="precious">
+		<name>Рубин</name>
+		<visualParameters>
+			<color>красный</color>
+			<transparency>0</transparency>
+		 	<edgeNumber>10</edgeNumber>
+		 	<value>3</value>
+		</visualParameters>
+	</gem>
